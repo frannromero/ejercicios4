@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <form class="form">
+        <div class="names">
+            <input id="names" type="name" name="first_name" placeholder="Nombres" required class="names1">
+            <input id="names" type="name" name="second_name" placeholder="Apellidos" required class="names1">
+        </div>
+
+        <div class="docs">
+            <select id="id" name="docs" required class="docs1 docs2">
+                <option value="DNI">DNI</option>
+                <option value="Pasaporte">Pasaporte</option>
+            </select>
+            <input id="number" type="number" required class="docs1">
+        </div>
+
+        <div class="email">
+            <input id="email" type="email" required placeholder="Email" class="email1">
+            <input id="cel" type="number" required placeholder="Celular" class="email1"> 
+        </div>
+
+        <div class="civil">
+            <label for="civil">Estado civil</label>
+            <select id="civil" name="estado_civil">
+                <option value="soltero">Soltero</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="viudo">Viudo</option>
+            </select>
+            <span>Cantidad de hijos</span>
+            <select id="hijos" name="hijos">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <div class="labor">
+            <div>
+            <span>¿Tiene experiencia laboral en el puesto?</span>
+            </div>
+            <label for="si">Si</label>
+            <input id="si" type="radio" name="si1">
+            <label for="no">No</label>
+            <input id="no" type="radio" name="si1">
+        </div>
+
+        <div class="lenguajes">
+            <div>
+                <span>Lenguajes que domina</span>
+            </div>
+            <label for="html">HTML</label>
+            <input id="html" type="checkbox" name="box1">
+
+            <label for="css">CSS</label>
+            <input id="css" type="checkbox" name="box2">
+
+            <label for="js">JavaScript</label>
+            <input id="js" type="checkbox" name="box3">
+
+            <label for="cmas">C++</label>
+            <input id="cmas" type="checkbox" name="box4">
+
+            <label for="sql">SQL</label>
+            <input id="sql" type="checkbox" name="box5">
+        </div>
+
+        <div>
+            <input type="text" required placeholder="Ingrese link a su portfolio" class="link">
+        </div>
+
+        <div>
+            <textarea minlength="250" placeholder="Cuentanos sobre ti" class="text" class="text"></textarea>
+        </div>
+
+        <button type="submit" class="button">Enviar</button>
+        
+    </form>
+</body>
+</html>
