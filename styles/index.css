@@ -139,6 +139,25 @@ body {
     border-color: black;
 }
 
+@media (max-width: 1024px) {
+    .form {
+        width: 350px;
+    }
+
+    .names1, .docs1, .docs2,.email1 {
+        width: 155px;
+    }
+
+    .button, .names, .docs, .email {
+        width: 334px;
+    }
+
+    .link, .text {
+        width: 330px;
+    } 
+}
+
+
 
 
 
