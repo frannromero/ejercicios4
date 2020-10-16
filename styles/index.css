@@ -141,19 +141,19 @@ body {
 
 @media (max-width: 1024px) {
     .form {
-        width: 350px;
+        width: 310px;
     }
 
     .names1, .docs1, .docs2,.email1 {
-        width: 155px;
+        width: 140px;
     }
 
     .button, .names, .docs, .email {
-        width: 334px;
+        width: 295px;
     }
 
     .link, .text {
-        width: 330px;
+        width: 290px;
     } 
 }
 
